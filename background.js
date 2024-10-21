@@ -39,7 +39,7 @@ function setup() {
 function draw() {
 
   // Setting up background and location of everything, as it'll all be at center of the screen.
-  background('#53e4c0');
+  background(0);
   noStroke();
   translate(width/2, height/2)
 
