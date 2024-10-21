@@ -120,7 +120,7 @@ function draw() {
   //This helps to optimise the site by removing the first item on the list,
   //which isn't usually visible after a certain point.
   for(var j = 0; j < shapeConstructor.length; j++){
-    if(shapeConstructor.length >= 16 && j != 0){
+    if(shapeConstructor.length >= 20 && j != 0){
         shapeConstructor.shift();
     }
   } 
