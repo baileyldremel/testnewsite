@@ -47,6 +47,7 @@ button img{
 
 button:hover{
   opacity: 60%;
+  cursor:pointer;
 }
 
 .center{
